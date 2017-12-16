@@ -27,4 +27,4 @@ python2 $CODE_DIR/preprocessing/squad_preprocess.py
 python2 $CODE_DIR/preprocessing/dwr.py
 
 # Data processing for TensorFlow
-python2 $CODE_DIR/qa_data.py --glove_dim 100
+python2 $CODE_DIR/preprocessing/prepare_data.py --glove_dim 100
